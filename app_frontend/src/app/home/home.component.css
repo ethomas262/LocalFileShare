@@ -1,0 +1,5 @@
+.flex-container {
+    margin: 10px;
+    white-space: 10px;
+    display: flex;
+}

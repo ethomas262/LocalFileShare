@@ -1,0 +1,24 @@
+
+
+<div class="boxwrapper">
+<div class="card ml-4" style="width: 25rem; height: 30rem" id = "yeah">
+    <div class="card-header">Files</div>
+    <div class="card-body">
+
+        <div class="outerDiv" id="outerDiv">
+            <div class="scrollableContent" id="scrollable">
+                <div *ngFor="let file of files">
+                    <app-file [File]='file'></app-file>
+                </div>
+            </div>
+        </div>
+
+        <form action="http://localhost:3000/upload" method="post" enctype="multipart/form-data" (ngSubmit)="onSubmit()" >
+            <input type="file" name="mFile" id="" />
+            <input type="submit" value="upload" />
+        </form>
+    </div>
+
+</div>
+
+</div>

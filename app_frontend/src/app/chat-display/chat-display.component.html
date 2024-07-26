@@ -1,0 +1,20 @@
+
+<div class="outerDiv" id="outerDiv">
+    <div class="scrollableContent" id="scrollable">
+        <div  *ngFor="let message of messages" >
+            <chatmessage [message]="message" class="card-deck mt-2" ></chatmessage>
+        </div>
+    </div>
+</div>
+<div class = "prompt-wrapper">
+<form [formGroup]="messageInput" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <textarea type="text" cols="5" rows="3" id="message" class="form-control" formControlName="message"></textarea><br>
+    </div>
+    <div *ngIf="messageInput?.get('message')?.invalid && messageInput?.get('name')?.touched" class="text-danger">
+        Message is required.
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+</div>
+

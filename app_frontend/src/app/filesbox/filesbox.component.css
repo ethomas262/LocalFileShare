@@ -1,0 +1,28 @@
+
+
+.boxwrapper{
+    padding: 3rem;
+}
+
+.outerDiv {
+    height: 300px;
+    position:bottom;
+    margin: 0em;
+}
+#yeah{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#yeah:hover{
+    transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.scrollableContent {
+    height: 100%;
+    margin: 0em;
+    overflow-y: auto;
+    overflow-x: auto;
+    align-items: center;
+    
+}

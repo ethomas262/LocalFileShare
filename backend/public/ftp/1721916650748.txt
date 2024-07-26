@@ -1,0 +1,169 @@
+
+7.10.0.10.in-addr.arpa	name = laptop-vs6niqur.dacs.test.
+
+Authoritative answers can be found from:
+
+8.10.0.10.in-addr.arpa	name = colsaco-m0e20t1.lab.local.
+
+Authoritative answers can be found from:
+
+9.10.0.10.in-addr.arpa	name = lambda3.lab.local.
+
+Authoritative answers can be found from:
+
+10.10.0.10.in-addr.arpa	name = lambda2.lab.local.
+
+Authoritative answers can be found from:
+
+11.10.0.10.in-addr.arpa	name = lambda1.lab.local.
+
+Authoritative answers can be found from:
+
+13.10.0.10.in-addr.arpa	name = cyber6.lab.local.
+
+Authoritative answers can be found from:
+
+14.10.0.10.in-addr.arpa	name = desktop-mfo9rhl.lab.local.
+
+Authoritative answers can be found from:
+
+17.10.0.10.in-addr.arpa	name = cyber17.lab.local.
+
+Authoritative answers can be found from:
+
+25.10.0.10.in-addr.arpa	name = hsvlt11197.corp.local.
+
+Authoritative answers can be found from:
+
+26.10.0.10.in-addr.arpa	name = cyber2.lab.local.
+
+Authoritative answers can be found from:
+
+27.10.0.10.in-addr.arpa	name = cyber8.lab.local.
+
+Authoritative answers can be found from:
+
+28.10.0.10.in-addr.arpa	name = bh-hsv-0612.dacs.test.
+
+Authoritative answers can be found from:
+
+31.10.0.10.in-addr.arpa	name = dacs-bh-0489.dacs.test.
+
+Authoritative answers can be found from:
+
+34.10.0.10.in-addr.arpa	name = dacs-0021.dacs.test.
+
+Authoritative answers can be found from:
+
+37.10.0.10.in-addr.arpa	name = hsvdt09482.dacs.test.
+
+Authoritative answers can be found from:
+
+47.10.0.10.in-addr.arpa	name = dacs-10720.dacs.test.
+
+Authoritative answers can be found from:
+
+48.10.0.10.in-addr.arpa	name = laptop-vs6niqur.dacs.test.
+
+Authoritative answers can be found from:
+
+57.10.0.10.in-addr.arpa	name = hsvdt10206.dacs.test.
+
+Authoritative answers can be found from:
+
+58.10.0.10.in-addr.arpa	name = hsvdt09429.dacs.test.
+
+Authoritative answers can be found from:
+
+59.10.0.10.in-addr.arpa	name = hsvdt10071.dacs.test.
+
+Authoritative answers can be found from:
+
+63.10.0.10.in-addr.arpa	name = npi590c3c.lab.local.
+
+Authoritative answers can be found from:
+
+64.10.0.10.in-addr.arpa	name = hsvdt009426.dacs.test.
+
+Authoritative answers can be found from:
+
+66.10.0.10.in-addr.arpa	name = hsvdt09452.dacs.test.
+
+Authoritative answers can be found from:
+
+67.10.0.10.in-addr.arpa	name = bh-hsv-0605.dacs.test.
+
+Authoritative answers can be found from:
+
+69.10.0.10.in-addr.arpa	name = colsaco-si3j5l6.lab.local.
+
+Authoritative answers can be found from:
+
+73.10.0.10.in-addr.arpa	name = hsvlt11261.corp.local.
+
+Authoritative answers can be found from:
+
+88.10.0.10.in-addr.arpa	name = cyber5.lab.local.
+
+Authoritative answers can be found from:
+
+89.10.0.10.in-addr.arpa	name = cyber1.lab.local.
+
+Authoritative answers can be found from:
+
+90.10.0.10.in-addr.arpa	name = cyber3.lab.local.
+
+Authoritative answers can be found from:
+
+94.10.0.10.in-addr.arpa	name = hsvlt10127.corp.local.
+
+Authoritative answers can be found from:
+
+96.10.0.10.in-addr.arpa	name = cyber0.lab.local.
+
+Authoritative answers can be found from:
+
+101.10.0.10.in-addr.arpa	name = cybdc01.lab.local.
+
+Authoritative answers can be found from:
+
+102.10.0.10.in-addr.arpa	name = CYBDC02.lab.local.
+
+Authoritative answers can be found from:
+
+110.10.0.10.in-addr.arpa	name = cybfs01.lab.local.
+
+Authoritative answers can be found from:
+
+111.10.0.10.in-addr.arpa	name = jira.lab.local.
+
+Authoritative answers can be found from:
+
+201.10.0.10.in-addr.arpa	name = nas01.lab.local.
+
+Authoritative answers can be found from:
+
+202.10.0.10.in-addr.arpa	name = nas02.lab.local.
+
+Authoritative answers can be found from:
+
+203.10.0.10.in-addr.arpa	name = nas03.lab.local.
+
+Authoritative answers can be found from:
+
+244.10.0.10.in-addr.arpa	name = dacs-ti001.
+
+Authoritative answers can be found from:
+
+245.10.0.10.in-addr.arpa	name = dacs-k8c01.
+
+Authoritative answers can be found from:
+
+246.10.0.10.in-addr.arpa	name = dacs-k8w01.
+
+Authoritative answers can be found from:
+
+251.10.0.10.in-addr.arpa	name = dacs-v-01.lab.local.
+
+Authoritative answers can be found from:
+

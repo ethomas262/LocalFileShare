@@ -1,0 +1,19 @@
+services:
+  webserver:
+    build: ./app_frontend
+
+    container_name: server
+
+    ports:
+      - "4200:4200"
+
+  backend:
+    build: ./backend
+    container_name: backend
+    expose:
+      - "3000"
+
+  database:
+    image: mongo
+    expose:
+      - "27017"

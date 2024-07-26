@@ -1,0 +1,18 @@
+.login-wrapper{
+    align-items: center;
+    padding: 3rem;
+    
+    
+}
+#registerbutton{
+    align-items:center;
+    display: flex;
+    width: fit-content;
+    background-color:black;
+    color:aliceblue;
+}
+.register-wrapper{
+    width: 40rem;
+    display:flex;
+    
+}

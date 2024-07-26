@@ -1,0 +1,22 @@
+
+.outerDiv {
+    height: 300px;
+    background-color:azure;
+    margin: 0em;
+    position: center
+}
+
+.scrollableContent {
+    height: 100%;
+    margin: 0em;
+    overflow-y: auto;
+    overflow-x:hidden;
+    position:center;
+}
+.prompt-wrapper{
+    justify-content:center
+}
+.form-group{
+    display:flex
+
+}

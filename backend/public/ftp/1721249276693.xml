@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Tue Jul  9 10:44:52 2024 as: nmap -oX Desktop/networkScan_linux.xml -p 21,22,23,25,53,67,68,80,110,111,123,137,143,161,162,443,993, -&#45;open -&#45;max-retries 2 10.0.10.0/24 -->
+<nmaprun scanner="nmap" args="nmap -oX Desktop/networkScan_linux.xml -p 21,22,23,25,53,67,68,80,110,111,123,137,143,161,162,443,993, -&#45;open -&#45;max-retries 2 10.0.10.0/24" start="1720536292" startstr="Tue Jul  9 10:44:52 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="17" services="21-23,25,53,67-68,80,110-111,123,137,143,161-162,443,993"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.9" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.19" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.22" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.255" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.12" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.15" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.39" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.253" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.63" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.101" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.201" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.202" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.244" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.0.10.176" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="Ping Scan" time="1720536295" percent="94.24" remaining="1" etc="1720536295"/>
+<taskprogress task="Parallel DNS resolution of 15 hosts." time="1720536296" percent="66.67" remaining="1" etc="1720536297"/>
+<taskprogress task="Parallel DNS resolution of 15 hosts." time="1720536296" percent="66.67" remaining="1" etc="1720536297"/>
+<taskprogress task="Parallel DNS resolution of 15 hosts." time="1720536297" percent="66.67" remaining="2" etc="1720536298"/>
+<taskprogress task="Parallel DNS resolution of 15 hosts." time="1720536297" percent="66.67" remaining="2" etc="1720536298"/>
+<taskprogress task="Parallel DNS resolution of 15 hosts." time="1720536298" percent="66.67" remaining="2" etc="1720536300"/>
+<taskprogress task="Parallel DNS resolution of 15 hosts." time="1720536298" percent="66.67" remaining="2" etc="1720536300"/>
+<taskprogress task="Parallel DNS resolution of 15 hosts." time="1720536299" percent="66.67" remaining="2" etc="1720536301"/>
+<taskprogress task="Parallel DNS resolution of 15 hosts." time="1720536299" percent="66.67" remaining="2" etc="1720536301"/>
+<taskprogress task="Connect Scan" time="1720536300" percent="5.88" remaining="16" etc="1720536316"/>
+<taskprogress task="Connect Scan" time="1720536300" percent="7.84" remaining="12" etc="1720536312"/>
+<taskprogress task="Connect Scan" time="1720536301" percent="16.67" remaining="10" etc="1720536311"/>
+<taskprogress task="Connect Scan" time="1720536302" percent="18.76" remaining="13" etc="1720536315"/>
+<taskprogress task="Connect Scan" time="1720536302" percent="34.31" remaining="6" etc="1720536308"/>
+<taskprogress task="Connect Scan" time="1720536302" percent="50.39" remaining="3" etc="1720536305"/>
+<taskprogress task="Connect Scan" time="1720536302" percent="62.94" remaining="2" etc="1720536304"/>
+<taskprogress task="Connect Scan" time="1720536303" percent="73.79" remaining="2" etc="1720536304"/>
+<taskprogress task="Connect Scan" time="1720536303" percent="88.23" remaining="1" etc="1720536304"/>
+<taskprogress task="Connect Scan" time="1720536303" percent="93.20" remaining="1" etc="1720536303"/>
+<taskprogress task="Connect Scan" time="1720536304" percent="96.08" remaining="1" etc="1720536304"/>
+<taskprogress task="Connect Scan" time="1720536304" percent="98.04" remaining="1" etc="1720536304"/>
+<taskprogress task="Connect Scan" time="1720536305" percent="99.61" remaining="1" etc="1720536305"/>
+<host starttime="1720536299" endtime="1720536305"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.9" addrtype="ipv4"/>
+<hostnames>
+<hostname name="lambda3.lab.local" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-response" count="15" proto="tcp" ports="21,23,25,53,67-68,110-111,123,137,143,161-162,443,993"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="1116" rttvar="2236" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.12" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-response" count="15" proto="tcp" ports="21,23,25,53,67-68,110-111,123,137,143,161-162,443,993"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="2829" rttvar="5197" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.15" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="14">
+<extrareasons reason="no-response" count="14" proto="tcp" ports="21,23,25,53,67-68,110-111,123,137,143,161-162,993"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="2791" rttvar="4512" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.19" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-response" count="15" proto="tcp" ports="21,23,25,53,67-68,80,110-111,123,137,143,161-162,993"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="4398" rttvar="8192" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.22" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="16">
+<extrareasons reason="no-response" count="16" proto="tcp" ports="21-23,25,53,67-68,110-111,123,137,143,161-162,443,993"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="12960" rttvar="11994" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.34" addrtype="ipv4"/>
+<hostnames>
+<hostname name="dacs-0021.dacs.test" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-response" count="15" proto="tcp" ports="21-23,25,53,67-68,110,123,137,143,161-162,443,993"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="1676" rttvar="3081" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.39" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-response" count="15" proto="tcp" ports="21,23,25,53,67-68,110-111,123,137,143,161-162,443,993"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="2125" rttvar="4281" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.63" addrtype="ipv4"/>
+<hostnames>
+<hostname name="npi590c3c.lab.local" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="16">
+<extrareasons reason="no-response" count="16" proto="tcp" ports="21-23,25,53,67-68,80,110-111,123,137,143,161-162,993"/>
+</extraports>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="1117" rttvar="3875" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.101" addrtype="ipv4"/>
+<hostnames>
+<hostname name="cybdc01.lab.local" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="14">
+<extrareasons reason="no-response" count="14" proto="tcp" ports="21-23,25,67-68,110-111,123,137,143,161-162,993"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="931" rttvar="2370" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536304"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.176" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-response" count="15" proto="tcp" ports="21,23,25,53,67-68,110-111,123,137,143,161-162,443,993"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="1254" rttvar="2318" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.202" addrtype="ipv4"/>
+<hostnames>
+<hostname name="nas02.lab.local" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="13">
+<extrareasons reason="no-response" count="13" proto="tcp" ports="21,23,25,53,67-68,110,123,137,143,161-162,993"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="2266" rttvar="3252" to="100000"/>
+</host>
+<host starttime="1720536299" endtime="1720536303"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.0.10.244" addrtype="ipv4"/>
+<hostnames>
+<hostname name="dacs-ti001" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="15">
+<extrareasons reason="no-response" count="15" proto="tcp" ports="21,23,25,53,67-68,110-111,123,137,143,161-162,443,993"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="1629" rttvar="4278" to="100000"/>
+</host>
+<runstats><finished time="1720536305" timestr="Tue Jul  9 10:45:05 2024" summary="Nmap done at Tue Jul  9 10:45:05 2024; 256 IP addresses (15 hosts up) scanned in 12.46 seconds" elapsed="12.46" exit="success"/><hosts up="15" down="241" total="256"/>
+</runstats>
+</nmaprun>

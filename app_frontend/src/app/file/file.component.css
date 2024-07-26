@@ -1,0 +1,17 @@
+.downloadButton {
+    background-color: white;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    font-size: 16px;
+    
+}
+.downloadButton:hover{
+    transition: all .4s ease;
+        -webkit-transition: all .4s ease;
+    background-color: lightblue;
+}

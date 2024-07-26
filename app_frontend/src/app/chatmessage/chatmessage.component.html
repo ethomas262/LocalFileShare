@@ -1,0 +1,32 @@
+
+<!-- <p [innerHTML]="Message.message"></p> -->
+<div *ngIf="!myMessage; else Mine">
+    <div class="container">
+        <div class="message-orange">
+            <div class="message-header">
+                <p [innerHTML]='Message.author'></p>
+            </div>
+            <div class="message-body">
+                <p class="message-content" [innerHTML]="Message.message"></p>
+            </div>
+            <div class="message-timestamp-left" [innerHTML]="Message.timeStamp"></div>
+        </div>
+    </div>
+</div>
+<ng-template #Mine>
+    <div class="container">
+        <div class="message-blue">
+            <div class = "message-header">
+                <p [innerHTML]='Message.author'></p>
+            </div><br>
+            <div class = "message-body">
+            <p class="message-content" [innerHTML]="Message.message"></p>
+            
+            </div><br>
+            <div class="message-timestamp-left" [innerHTML]="Message.timeStamp"></div>
+        </div>
+    </div>
+</ng-template>
+
+
+

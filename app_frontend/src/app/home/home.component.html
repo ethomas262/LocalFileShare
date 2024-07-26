@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default" *ngIf="loggedIn; else notLoggedIn" >
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="flex-container">
+        <app-chat-box></app-chat-box>
+        <app-filesbox></app-filesbox>
+    </div>
+</nav>
+<ng-template #notLoggedIn>
+
+    <nav>
+        <div class="container-flued">
+            <button (click)="onLoginClick()">Please Login to continue</button>
+        </div>
+    </nav>
+
+</ng-template>
+
+
+
