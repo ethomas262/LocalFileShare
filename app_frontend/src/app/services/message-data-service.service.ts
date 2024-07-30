@@ -21,14 +21,9 @@ export class MessageDataService {
     return this.http.post<Message>(this.url + "/messages", message_data)
     //return this.http.post<Message>(this.url, formData)
   }
-  getOthers(homeAuthor: string) : Observable<Message[]> {
-    return this.http.get<Message[]>(this.url + '/otherMessages/' + ":" + homeAuthor)
-  }
-
   getMessages() : Observable<Message[]> {
     return this.http.get<Message[]>(this.url + '/oldMessages')
   }
-
 
   login(user: User): Promise<AuthResponse> {
     let url = `${this.url}/login`
@@ -39,6 +34,7 @@ export class MessageDataService {
     let url = `${this.url}/register`
     return this.makeAuthRegistrationCall('register', req)
   }
+  
   private async makeAuthRegistrationCall(urlPath: string, req: registrationRequest) : Promise<AuthResponse>{
     const url: string = `${this.url}/${urlPath}`;
     return (await lastValueFrom(this.http.post(url, req))) as AuthResponse;

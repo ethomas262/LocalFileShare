@@ -2,17 +2,17 @@ const mongoose = require('mongoose');
 const message = require('../Models/message');
 const Model = mongoose.model('message');
 
+//api handler for adding messages
 const addMessage = async (req, res) => {
 
-    console.log(req.body.author)
-    console.log(req.body.message)
-    const currentTime = new Date()
+    //create new message in database
     const trip = await Model.create({
         author: req.body.author,
-        time: currentTime,
+        time: new Date(),
         message: req.body.message,
-        timeStamp: currentTime.toLocaleTimeString('en-US', {weekday: 'long', hour: '2-digit', minute: '2-digit'})
+        timeStamp: new Date().toLocaleTimeString('en-US', {weekday: 'long', hour: '2-digit', minute: '2-digit'})
       })
+      //then send the message as a response
       .then((data) => {
         res.send(data);
       })
@@ -20,7 +20,8 @@ const addMessage = async (req, res) => {
         res.send(err)
       });
   };
-  
+
+//api handler for get
 const getMessages = async(req, res) => {
     const z = await Model
         .find({}).sort('-time').exec()

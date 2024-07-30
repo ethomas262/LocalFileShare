@@ -26,7 +26,7 @@ userSchema.methods.generateJwt = function () {
         email: this.email,
         name: this.name,
         exp: parseInt(expiry.getTime() / 1000, 10),
-    }, "Secret_key"); // DO NOT KEEP YOUR SECRET IN THE CODE!
+    }, process.env.SECRETKEY); // DO NOT KEEP YOUR SECRET IN THE CODE!
 };
 
 userSchema.methods.validPassword = function(password) {
